@@ -1,0 +1,65 @@
+xst -intstyle ise -ifn "G:/9no Semestre/Arquitectura de Computadoras/Practicas/Arquitectura/TOP1/TOP.xst" -ofn "G:/9no Semestre/Arquitectura de Computadoras/Practicas/Arquitectura/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/MiPC/Desktop/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "C:/Users/MiPC/Desktop/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/MiPC/Desktop/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "C:/Users/MiPC/Desktop/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/MiPC/Desktop/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "C:/Users/MiPC/Desktop/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/MiPC/Desktop/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "C:/Users/MiPC/Desktop/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/MiPC/Desktop/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "C:/Users/MiPC/Desktop/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/MiPC/Desktop/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "C:/Users/MiPC/Desktop/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/MiPC/Desktop/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "C:/Users/MiPC/Desktop/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/MiPC/Desktop/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "C:/Users/MiPC/Desktop/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "C:/Users/MiPC/Desktop/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "C:/Users/MiPC/Desktop/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "E:/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "E:/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "G:/9no Semestre/Arquitectura de Computadoras/Practicas/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "G:/9no Semestre/Arquitectura de Computadoras/Practicas/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx9-csg225-2 "TOP.ngc" TOP.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx9-csg225-2 "TOP.ngc" TOP.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOP_map.ncd TOP.ngd TOP.pcf 
+par -w -intstyle ise -ol high -mt off TOP_map.ncd TOP.ncd TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TOP.twx TOP.ncd -o TOP.twr TOP.pcf -ucf top.ucf 
+bitgen -intstyle ise -f TOP.ut TOP.ncd 
+xst -intstyle ise -ifn "E:/9no Semestre/Arquitectura de Computadoras/Practicas/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "E:/9no Semestre/Arquitectura de Computadoras/Practicas/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx9-csg225-2 "TOP.ngc" TOP.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOP_map.ncd TOP.ngd TOP.pcf 
+par -w -intstyle ise -ol high -mt off TOP_map.ncd TOP.ncd TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TOP.twx TOP.ncd -o TOP.twr TOP.pcf -ucf top.ucf 
+bitgen -intstyle ise -f TOP.ut TOP.ncd 
+xst -intstyle ise -ifn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx9-csg225-2 "TOP.ngc" TOP.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOP_map.ncd TOP.ngd TOP.pcf 
+par -w -intstyle ise -ol high -mt off TOP_map.ncd TOP.ncd TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TOP.twx TOP.ncd -o TOP.twr TOP.pcf -ucf top.ucf 
+bitgen -intstyle ise -f TOP.ut TOP.ncd 
+xst -intstyle ise -ifn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+xst -intstyle ise -ifn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.xst" -ofn "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc6slx9-csg225-2 "TOP.ngc" TOP.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOP_map.ncd TOP.ngd TOP.pcf 
+par -w -intstyle ise -ol high -mt off TOP_map.ncd TOP.ncd TOP.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TOP.twx TOP.ncd -o TOP.twr TOP.pcf -ucf top.ucf 
+bitgen -intstyle ise -f TOP.ut TOP.ncd 

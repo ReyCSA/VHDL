@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=F:\Secuencial\m6e\m6e.ncd
+OUTFILE=F:\Secuencial\m6e\m6e.bit
+FAMILY=Spartan6
+PART=xc6slx9-2csg225
+WORKINGDIR=F:\Secuencial\m6e
+LICENSE=WebPack
+USER_INFO=__0_0_0

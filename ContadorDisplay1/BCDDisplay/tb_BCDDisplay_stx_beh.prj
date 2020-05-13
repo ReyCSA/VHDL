@@ -1,0 +1,3 @@
+vhdl isim_temp "../../Practica13_ContadorDecimal/ContadorBCD/ContadorBCD.vhd"
+vhdl isim_temp "BCDDisplay.vhd"
+vhdl isim_temp "tb_BCDDisplay.vhd"

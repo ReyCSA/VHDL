@@ -1,0 +1,20 @@
+//! **************************************************************************
+// Written by: Map P.58f on Thu Oct 25 01:03:12 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "entradaPlaca<0>" LOCATE = SITE "B14" LEVEL 1;
+COMP "entradaPlaca<1>" LOCATE = SITE "C14" LEVEL 1;
+COMP "entradaPlaca<2>" LOCATE = SITE "D13" LEVEL 1;
+COMP "entradaPlaca<3>" LOCATE = SITE "E14" LEVEL 1;
+COMP "banderasPlaca<0>" LOCATE = SITE "F15" LEVEL 1;
+COMP "banderasPlaca<1>" LOCATE = SITE "M15" LEVEL 1;
+COMP "banderasPlaca<2>" LOCATE = SITE "N15" LEVEL 1;
+COMP "banderasPlaca<3>" LOCATE = SITE "P15" LEVEL 1;
+COMP "salidaPlaca<0>" LOCATE = SITE "G15" LEVEL 1;
+COMP "salidaPlaca<1>" LOCATE = SITE "C15" LEVEL 1;
+COMP "salidaPlaca<2>" LOCATE = SITE "D15" LEVEL 1;
+COMP "salidaPlaca<3>" LOCATE = SITE "E15" LEVEL 1;
+COMP "clkPlaca" LOCATE = SITE "E7" LEVEL 1;
+SCHEMATIC END;
+

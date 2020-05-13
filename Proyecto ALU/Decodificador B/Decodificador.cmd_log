@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "F:/9no Semestre/Arquitectura de Computadoras/Practicas/Arquitectura/Decodificador/Decodificador.xst" -ofn "F:/9no Semestre/Arquitectura de Computadoras/Practicas/Arquitectura/Decodificador/Decodificador.syr" 

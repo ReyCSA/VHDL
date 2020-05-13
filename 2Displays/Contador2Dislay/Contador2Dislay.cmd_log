@@ -1,0 +1,11 @@
+vhdtdtfi -prj Contador2Dislay -o "F:/Logica Secuencial/2do Parcial/Practica15_2Displays/Contador2Dislay/Contador2Dislay.vhi" -module Contador2Dislay -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Contador2Dislay.vhd 
+xst -intstyle ise -ifn "H:/Logica Secuencial/2do Parcial/Practica15_2Displays/Contador2Dislay/Contador2Dislay.xst" -ofn "H:/Logica Secuencial/2do Parcial/Practica15_2Displays/Contador2Dislay/Contador2Dislay.syr" 
+xst -intstyle ise -ifn "H:/Logica Secuencial/2do Parcial/Practica15_2Displays/Contador2Dislay/Contador2Dislay.xst" -ofn "H:/Logica Secuencial/2do Parcial/Practica15_2Displays/Contador2Dislay/Contador2Dislay.syr" 
+xst -intstyle ise -ifn "H:/Logica Secuencial/2do Parcial/Practica15_2Displays/Contador2Dislay/Contador2Dislay.xst" -ofn "H:/Logica Secuencial/2do Parcial/Practica15_2Displays/Contador2Dislay/Contador2Dislay.syr" 
+xst -intstyle ise -ifn "H:/Logica Secuencial/2do Parcial/Practica15_2Displays/Contador2Dislay/Contador2Dislay.xst" -ofn "H:/Logica Secuencial/2do Parcial/Practica15_2Displays/Contador2Dislay/Contador2Dislay.syr" 
+xst -intstyle ise -ifn "H:/Logica Secuencial/2do Parcial/Practica15_2Displays/Contador2Dislay/Contador2Dislay.xst" -ofn "H:/Logica Secuencial/2do Parcial/Practica15_2Displays/Contador2Dislay/Contador2Dislay.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg225-2 "Contador2Dislay.ngc" Contador2Dislay.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Contador2Dislay_map.ncd Contador2Dislay.ngd Contador2Dislay.pcf 
+par -w -intstyle ise -ol high -mt off Contador2Dislay_map.ncd Contador2Dislay.ncd Contador2Dislay.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Contador2Dislay.twx Contador2Dislay.ncd -o Contador2Dislay.twr Contador2Dislay.pcf 
+bitgen -intstyle ise -f Contador2Dislay.ut Contador2Dislay.ncd 

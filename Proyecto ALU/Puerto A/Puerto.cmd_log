@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "F:/9no Semestre/Arquitectura de Computadoras/Practicas/Arquitectura/Puerto/Puerto.xst" -ofn "F:/9no Semestre/Arquitectura de Computadoras/Practicas/Arquitectura/Puerto/Puerto.syr" 
+xst -intstyle ise -ifn "F:/9no Semestre/Arquitectura de Computadoras/Practicas/Arquitectura/Puerto/Puerto.xst" -ofn "F:/9no Semestre/Arquitectura de Computadoras/Practicas/Arquitectura/Puerto/Puerto.syr" 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "H:/Logica Secuencial/2do Parcial/Practica17_Chapa/chapav2/tb_chapa_isim_beh.exe" -prj "H:/Logica Secuencial/2do Parcial/Practica17_Chapa/chapav2/tb_chapa_beh.prj" "work.tb_chapa" 

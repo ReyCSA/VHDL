@@ -1,0 +1,22 @@
+Running: C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/MiPC/Desktop/chapa/chapa/tb_chapa_isim_beh.exe -prj C:/Users/MiPC/Desktop/chapa/chapa/tb_chapa_beh.prj work.tb_chapa 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/MiPC/Desktop/chapa/chapa/chapa.vhd" into library work
+Parsing VHDL file "C:/Users/MiPC/Desktop/chapa/chapa/tb_chapa.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity chapa [chapa_default]
+Compiling architecture behavior of entity tb_chapa
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: El sistema no puede encontrar la ruta especificada, "isim\tb_chapa_isim_beh.exe.sim\libPortability.dll".
+Compiled 7 VHDL Units
+Built simulation executable C:/Users/MiPC/Desktop/chapa/chapa/tb_chapa_isim_beh.exe
+Fuse Memory Usage: 33600 KB
+Fuse CPU Usage: 358 ms

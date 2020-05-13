@@ -1,0 +1,2 @@
+vhdtdtfi -prj BCDDisplay -o "G:/Logica Secuencial/2do Parcial/Practica14_ContadorDisplay1/BCDDisplay/ContadorBCD.vhi" -module ContadorBCD -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../../Practica13_ContadorDecimal/ContadorBCD/ContadorBCD.vhd 
+vhdtdtfi -prj BCDDisplay -o "F:/Logica Secuencial/2do Parcial/Practica14_ContadorDisplay1/BCDDisplay/ContadorBCD.vhi" -module ContadorBCD -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../../Practica13_ContadorDecimal/ContadorBCD/ContadorBCD.vhd 

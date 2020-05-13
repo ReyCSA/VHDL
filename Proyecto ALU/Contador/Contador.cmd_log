@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "F:/9no Semestre/Arquitectura de Computadoras/Practicas/Arquitectura/Contador/Contador.xst" -ofn "F:/9no Semestre/Arquitectura de Computadoras/Practicas/Arquitectura/Contador/Contador.syr" 
+xst -intstyle ise -ifn "G:/9no Semestre/Arquitectura de Computadoras/Practicas/Arquitectura/Contador/Contador.xst" -ofn "G:/9no Semestre/Arquitectura de Computadoras/Practicas/Arquitectura/Contador/Contador.syr" 
+xst -intstyle ise -ifn "G:/9no Semestre/Arquitectura de Computadoras/Practicas/Arquitectura/Contador/Contador.xst" -ofn "G:/9no Semestre/Arquitectura de Computadoras/Practicas/Arquitectura/Contador/Contador.syr" 
+xst -intstyle ise -ifn "G:/9no Semestre/Arquitectura de Computadoras/Practicas/Arquitectura/Contador/Contador.xst" -ofn "G:/9no Semestre/Arquitectura de Computadoras/Practicas/Arquitectura/Contador/Contador.syr" 

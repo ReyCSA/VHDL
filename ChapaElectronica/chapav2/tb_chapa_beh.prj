@@ -1,0 +1,2 @@
+vhdl work "chapa.vhd"
+vhdl work "tb_chapa.vhd"

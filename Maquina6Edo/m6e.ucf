@@ -1,0 +1,5 @@
+net "y<0>" loc="G15";
+net "y<1>" loc="C15";
+net "y<2>" loc="D15";
+net "x" loc="B14";
+net "clk" loc="E7";

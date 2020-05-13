@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=G:\Logica Secuencial\1er Parcial\Ejemplo\2Displays\Display\Display.ncd
+OUTFILE=G:\Logica Secuencial\1er Parcial\Ejemplo\2Displays\Display\Display.bit
+FAMILY=Spartan6
+PART=xc6slx16-2ftg256
+WORKINGDIR=G:\Logica Secuencial\1er Parcial\Ejemplo\2Displays\Display
+LICENSE=WebPack
+USER_INFO=__0_0_0

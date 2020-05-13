@@ -1,0 +1,159 @@
+----------------------------------------------------------------------------------
+-- 
+----------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_unsigned.ALL;
+-- 
+
+entity Display is
+	  Port ( clk : in  STD_LOGIC;
+				dis : out  STD_LOGIC_VECTOR (1 downto 0);
+				num : out  STD_LOGIC_VECTOR (3 downto 0);
+            sal : out  STD_LOGIC_VECTOR (6 downto 0)
+			 );
+end Display;
+
+architecture Behavioral of Display is
+
+	constant limite: integer := 4;
+	signal conta: integer range 0 to limite;
+	signal salida: std_logic_vector(6 downto 0) := "0000001";
+	signal seleccion: std_logic_vector(1 downto 0) := "01";
+	signal tmpnum: std_logic_vector(3 downto 0) := "0001";
+
+begin
+
+	process(clk, conta, salida)
+	begin
+		if falling_edge(clk) then
+			if(conta = limite) then						
+				conta <= 0;	
+				tmpnum <= (tmpnum+1);
+					if(tmpnum = 10)then 
+						tmpnum <= "0001";
+						seleccion <= "00";
+					else
+						if(tmpnum < 10)then
+							case tmpnum is
+								when "0000" => salida <= "0000001";
+								when "0001" => salida <= "1001111";
+								when "0010" => salida <= "0010010";
+								when "0011" => salida <= "0000110";
+								when "0100" => salida <= "1001100";
+								when "0101" => salida <= "0100100";								
+								when "0110" => salida <= "0100000";
+								when "0111" => salida <= "0001111";
+								when "1000" => salida <= "0000000";
+								when "1001" => salida <= "0000100";
+								when others => salida <= "1111111";
+							end case;	
+						end if;
+					end if;
+			else
+				conta <= conta+1;					
+			end if;
+		end if;
+	end process;
+		
+	dis <= seleccion;	
+	num <= tmpnum;
+	sal <= salida;
+
+end Behavioral;
+
+
+
+----------------------------------------------------------------------------------
+-- 
+----------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_unsigned.ALL;
+-- 
+
+entity Display is
+	  Port( clk: IN STD_LOGIC;
+			  salida: OUT STD_LOGIC_VECTOR(6 DOWNTO 0);
+			  habilita: OUT STD_LOGIC_VECTOR(3 DOWNTO 0)
+		);
+end Display;
+
+architecture Behavioral of Display is
+
+type cambio is (display1, display2);
+signal hba, hbd: cambio := display1;
+
+constant limite: integer := 10;
+constant retraso: integer := 4_999;
+
+signal tmp, tmpd1, tmpd2: integer range 0 to 9 := 0;
+
+signal conta: integer range 0 to limite := 0;
+signal conta2: integer range 0 to retraso := 0;
+	
+begin
+
+	process (clk, hba)
+	begin
+		if falling_edge(clk)then
+					if (conta = limite)then
+						conta <= 0;
+						tmpd1 <= (tmpd1+1);
+							if (tmpd1 = 9)then 
+								tmpd1 <= 0;
+								tmpd2 <= (tmpd2+1);
+									if (tmpd2 = 9) then
+										tmpd2 <= 0;									
+									end if;
+							end if;	
+					else
+						conta <= (conta+1);
+					end if;
+		end if;
+		case hba is
+	when display1 => habilita <= "1110";
+		hbd <= display2;
+	when display2 => habilita <= "1101";
+		hbd <= display1;
+	when others => null;
+	end case;
+	end process;
+---------------------------------------------------------------
+
+--process(hba)
+--begin
+--	case hba is
+--	when display1 => habilita <= "1110";
+--		hbd <= display2;
+--	when display2 => habilita <= "1101";
+--		hbd <= display1;
+--	when others => null;
+--	end case;
+--end process;
+--------(SUBPROCESO QUE INDICA CUANDO SE CAMBIA DE ESTADO)---------
+process(clk,hba,hbd)
+begin
+	if falling_edge(clk)then
+		conta2 <= (conta2 +1);
+		if(conta2 = retraso)then
+			conta2 <= 0;
+			hba <= hbd;
+		end if;
+	end if;
+end process;
+
+tmp <= tmpd1 when hba = display1 else tmpd2;
+
+salida <= "0000001" when tmp = 0 else 
+			 "1001111" when tmp = 1 else 
+			 "0010010" when tmp = 2 else 
+			 "0000110" when tmp = 3 else 
+			 "1001100" when tmp = 4 else 
+			 "0100100" when tmp = 5 else 				
+			 "0100000" when tmp = 6 else 
+			 "0001111" when tmp = 7 else 
+			 "0000000" when tmp = 8 else 
+			 "0000100";
+	
+end Behavioral;

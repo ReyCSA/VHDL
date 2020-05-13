@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "G:/Logica Secuencial/2do Parcial/Practica14_ContadorDisplay1/BCDDisplay/BCDDisplay.xst" -ofn "G:/Logica Secuencial/2do Parcial/Practica14_ContadorDisplay1/BCDDisplay/BCDDisplay.syr" 
+xst -intstyle ise -ifn "F:/Logica Secuencial/2do Parcial/Practica14_ContadorDisplay1/BCDDisplay/BCDDisplay.xst" -ofn "F:/Logica Secuencial/2do Parcial/Practica14_ContadorDisplay1/BCDDisplay/BCDDisplay.syr" 

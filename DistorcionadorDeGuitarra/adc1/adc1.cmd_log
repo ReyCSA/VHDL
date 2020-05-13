@@ -1,0 +1,66 @@
+xst -intstyle ise -ifn "C:/Users/telmex/Desktop/memoria/uaem/2018A/LOGICA SECUENCIAL Y COMBINATORIA/programas/adc1/adc1.xst" -ofn "C:/Users/telmex/Desktop/memoria/uaem/2018A/LOGICA SECUENCIAL Y COMBINATORIA/programas/adc1/adc1.syr" 
+xst -intstyle ise -ifn "C:/Users/telmex/Desktop/memoria/uaem/2018A/LOGICA SECUENCIAL Y COMBINATORIA/programas/adc1/adc1.xst" -ofn "C:/Users/telmex/Desktop/memoria/uaem/2018A/LOGICA SECUENCIAL Y COMBINATORIA/programas/adc1/adc1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg225-2 "adc1.ngc" adc1.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o adc1_map.ncd adc1.ngd adc1.pcf 
+par -w -intstyle ise -ol high -mt off adc1_map.ncd adc1.ncd adc1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml adc1.twx adc1.ncd -o adc1.twr adc1.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc adc1.ucf -p xc6slx9-csg225-2 "adc1.ngc" adc1.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o adc1_map.ncd adc1.ngd adc1.pcf 
+par -w -intstyle ise -ol high -mt off adc1_map.ncd adc1.ncd adc1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml adc1.twx adc1.ncd -o adc1.twr adc1.pcf -ucf adc1.ucf 
+bitgen -intstyle ise -f adc1.ut adc1.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc adc1.ucf -p xc6slx9-csg225-2 "adc1.ngc" adc1.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o adc1_map.ncd adc1.ngd adc1.pcf 
+par -w -intstyle ise -ol high -mt off adc1_map.ncd adc1.ncd adc1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml adc1.twx adc1.ncd -o adc1.twr adc1.pcf -ucf adc1.ucf 
+bitgen -intstyle ise -f adc1.ut adc1.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc adc1.ucf -p xc6slx9-csg225-2 "adc1.ngc" adc1.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o adc1_map.ncd adc1.ngd adc1.pcf 
+par -w -intstyle ise -ol high -mt off adc1_map.ncd adc1.ncd adc1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml adc1.twx adc1.ncd -o adc1.twr adc1.pcf -ucf adc1.ucf 
+bitgen -intstyle ise -f adc1.ut adc1.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc adc1.ucf -p xc6slx9-csg225-2 "adc1.ngc" adc1.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o adc1_map.ncd adc1.ngd adc1.pcf 
+par -w -intstyle ise -ol high -mt off adc1_map.ncd adc1.ncd adc1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml adc1.twx adc1.ncd -o adc1.twr adc1.pcf -ucf adc1.ucf 
+bitgen -intstyle ise -f adc1.ut adc1.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc adc1.ucf -p xc6slx9-csg225-2 "adc1.ngc" adc1.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o adc1_map.ncd adc1.ngd adc1.pcf 
+par -w -intstyle ise -ol high -mt off adc1_map.ncd adc1.ncd adc1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml adc1.twx adc1.ncd -o adc1.twr adc1.pcf -ucf adc1.ucf 
+bitgen -intstyle ise -f adc1.ut adc1.ncd 
+xst -intstyle ise -ifn "G:/Logica Secuencial/Exposicion/distorsion/adc1/adc1.xst" -ofn "G:/Logica Secuencial/Exposicion/distorsion/adc1/adc1.syr" 
+xst -intstyle ise -ifn "G:/Logica Secuencial/Exposicion/distorsion/adc1/adc1.xst" -ofn "G:/Logica Secuencial/Exposicion/distorsion/adc1/adc1.syr" 
+xst -intstyle ise -ifn "G:/Logica Secuencial/Exposicion/distorsion/adc1/adc1.xst" -ofn "G:/Logica Secuencial/Exposicion/distorsion/adc1/adc1.syr" 
+xst -intstyle ise -ifn "G:/Logica Secuencial/Exposicion/distorsion/adc1/adc1.xst" -ofn "G:/Logica Secuencial/Exposicion/distorsion/adc1/adc1.syr" 
+xst -intstyle ise -ifn "G:/Logica Secuencial/Exposicion/distorsion/adc1/adc1.xst" -ofn "G:/Logica Secuencial/Exposicion/distorsion/adc1/adc1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc adc1.ucf -p xc6slx9-csg225-2 "adc1.ngc" adc1.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o adc1_map.ncd adc1.ngd adc1.pcf 
+par -w -intstyle ise -ol high -mt off adc1_map.ncd adc1.ncd adc1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml adc1.twx adc1.ncd -o adc1.twr adc1.pcf -ucf adc1.ucf 
+bitgen -intstyle ise -f adc1.ut adc1.ncd 
+xst -intstyle ise -ifn "G:/Logica Secuencial/Exposicion/distorsion/adc1/adc1.xst" -ofn "G:/Logica Secuencial/Exposicion/distorsion/adc1/adc1.syr" 
+xst -intstyle ise -ifn "G:/Logica Secuencial/Exposicion/distorsion/adc1/adc1.xst" -ofn "G:/Logica Secuencial/Exposicion/distorsion/adc1/adc1.syr" 
+xst -intstyle ise -ifn "G:/Logica Secuencial/Exposicion/distorsion/adc1/adc1.xst" -ofn "G:/Logica Secuencial/Exposicion/distorsion/adc1/adc1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc adc1.ucf -p xc6slx9-csg225-2 "adc1.ngc" adc1.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o adc1_map.ncd adc1.ngd adc1.pcf 
+par -w -intstyle ise -ol high -mt off adc1_map.ncd adc1.ncd adc1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml adc1.twx adc1.ncd -o adc1.twr adc1.pcf -ucf adc1.ucf 
+bitgen -intstyle ise -f adc1.ut adc1.ncd 
+xst -intstyle ise -ifn "E:/Logica Secuencial/Exposicion/distorsion/adc1/adc1.xst" -ofn "E:/Logica Secuencial/Exposicion/distorsion/adc1/adc1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc adc1.ucf -p xc6slx9-csg225-2 "adc1.ngc" adc1.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o adc1_map.ncd adc1.ngd adc1.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc adc1.ucf -p xc6slx9-csg225-2 "adc1.ngc" adc1.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o adc1_map.ncd adc1.ngd adc1.pcf 
+par -w -intstyle ise -ol high -mt off adc1_map.ncd adc1.ncd adc1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml adc1.twx adc1.ncd -o adc1.twr adc1.pcf -ucf adc1.ucf 
+bitgen -intstyle ise -f adc1.ut adc1.ncd 
+xst -intstyle ise -ifn "E:/Logica Secuencial/Exposicion/distorsion/adc1/adc1.xst" -ofn "E:/Logica Secuencial/Exposicion/distorsion/adc1/adc1.syr" 
+xst -intstyle ise -ifn "E:/Logica Secuencial/Exposicion/distorsion/adc1/adc1.xst" -ofn "E:/Logica Secuencial/Exposicion/distorsion/adc1/adc1.syr" 
+xst -intstyle ise -ifn "E:/Logica Secuencial/Exposicion/distorsion/adc1/adc1.xst" -ofn "E:/Logica Secuencial/Exposicion/distorsion/adc1/adc1.syr" 
+xst -intstyle ise -ifn "E:/Logica Secuencial/Exposicion/distorsion/adc1/adc1.xst" -ofn "E:/Logica Secuencial/Exposicion/distorsion/adc1/adc1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc adc1.ucf -p xc6slx9-csg225-2 "adc1.ngc" adc1.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o adc1_map.ncd adc1.ngd adc1.pcf 
+par -w -intstyle ise -ol high -mt off adc1_map.ncd adc1.ncd adc1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml adc1.twx adc1.ncd -o adc1.twr adc1.pcf -ucf adc1.ucf 
+bitgen -intstyle ise -f adc1.ut adc1.ncd 

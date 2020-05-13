@@ -1,0 +1,6 @@
+E:\Logica Secuencial\Exposicion\distorsion\WorkspaceDAC\Design01.cydsn\Design01.cyprj|c7b79353-1381-4cbb-abbe-b1c284a0dfda
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|897a6b8d-2387-4513-b3f9-f3d8ef2c1fb1
+C:\Users\Castro\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|f27d2575-89a4-48ef-b80a-9a93fb18e1c1
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|2ed00b1f-1d65-40a2-adaf-99b53f899b7a
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|da2afb2b-17f4-462b-8e5c-733dc148218e
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|997ca3a9-8b48-4826-8a11-a5ae2ee302ec

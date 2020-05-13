@@ -1,0 +1,9 @@
+--------------- Build Started: 06/04/2018 19:14:32 Project: Design01, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+cydsfit.exe -.appdatapath "C:\Users\Castro\AppData\Local\Cypress Semiconductor\PSoC Creator\4.2" -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p "E:\Logica Secuencial\Exposicion\distorsion\Workspace13\Design01.cydsn\Design01.cyprj" -d CY8C4245AXI-483 -s "E:\Logica Secuencial\Exposicion\distorsion\Workspace13\Design01.cydsn\Generated_Source\PSoC4" -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
+Elaborating Design...
+ADD: fit.M0006: error: Pin Error: (Illegal entry.).
+ * E:\Logica Secuencial\Exposicion\distorsion\Workspace13\Design01.cydsn\Design01.cydwr (\Pin_2[3:0]\)
+ADD: sdb.M0061: information: Info from component: ADC_SAR_Seq_1. The actual sample rate (171428 SPS) differs from the desired sample rate (166666 SPS) due to the clock configuration in the DWR.
+ * E:\Logica Secuencial\Exposicion\distorsion\Workspace13\Design01.cydsn\TopDesign\TopDesign.cysch (Instance:ADC_SAR_Seq_1)
+Error: fit.M0050: The fitter aborted due to errors, please address all errors and rebuild. (App=cydsfit)
+--------------- Build Failed: 06/04/2018 19:14:46 ---------------

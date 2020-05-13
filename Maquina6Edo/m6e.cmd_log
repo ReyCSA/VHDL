@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "F:/Secuencial/m6e/m6e.xst" -ofn "F:/Secuencial/m6e/m6e.syr" 
+xst -intstyle ise -ifn "F:/Secuencial/m6e/m6e.xst" -ofn "F:/Secuencial/m6e/m6e.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc m6e.ucf -p xc6slx9-csg225-2 m6e.ngc m6e.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o m6e_map.ncd m6e.ngd m6e.pcf 
+par -w -intstyle ise -ol high -mt off m6e_map.ncd m6e.ncd m6e.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml m6e.twx m6e.ncd -o m6e.twr m6e.pcf -ucf m6e.ucf 
+bitgen -intstyle ise -f m6e.ut m6e.ncd 
+xst -intstyle ise -ifn "F:/Secuencial/m6e/m6e.xst" -ofn "F:/Secuencial/m6e/m6e.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc m6e.ucf -p xc6slx9-csg225-2 m6e.ngc m6e.ngd  
+map -intstyle ise -p xc6slx9-csg225-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o m6e_map.ncd m6e.ngd m6e.pcf 
+par -w -intstyle ise -ol high -mt off m6e_map.ncd m6e.ncd m6e.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml m6e.twx m6e.ncd -o m6e.twr m6e.pcf -ucf m6e.ucf 
+bitgen -intstyle ise -f m6e.ut m6e.ncd 

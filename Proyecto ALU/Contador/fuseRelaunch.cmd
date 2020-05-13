@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "G:/9no Semestre/Arquitectura de Computadoras/Practicas/Arquitectura/Contador/tb_Contador_isim_beh.exe" -prj "G:/9no Semestre/Arquitectura de Computadoras/Practicas/Arquitectura/Contador/tb_Contador_beh.prj" "work.tb_Contador" 

@@ -1,0 +1,28 @@
+Command line:
+   tb_Contador2Dislay_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52378
+
+Mon Apr 23 11:01:15 2018
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 364.044 Meg
+
+ Total Signals          : 58
+ Total Nets             : 56
+ Total Signal Drivers   : 26
+ Total Blocks           : 11
+ Total Primitive Blocks : 7
+ Total Processes        : 20
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 439
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 364.044 Meg
+
+Mon Apr 23 11:01:26 2018
+

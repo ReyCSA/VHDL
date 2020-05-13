@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "H:/Logica Secuencial/2do Parcial/Practica14_ContadorDisplay1/BCDDisplay/tb_BCDDisplay_isim_beh.exe" -prj "H:/Logica Secuencial/2do Parcial/Practica14_ContadorDisplay1/BCDDisplay/tb_BCDDisplay_beh.prj" "work.tb_BCDDisplay" 

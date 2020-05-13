@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\Logica Secuencial\Exposicion\distorsion\adc1\adc1.ncd
+OUTFILE=E:\Logica Secuencial\Exposicion\distorsion\adc1\adc1.bit
+FAMILY=Spartan6
+PART=xc6slx9-2csg225
+WORKINGDIR=E:\Logica Secuencial\Exposicion\distorsion\adc1
+LICENSE=WebPack
+USER_INFO=__0_0_0

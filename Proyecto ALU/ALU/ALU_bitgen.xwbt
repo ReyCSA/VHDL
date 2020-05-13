@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=G:\9no Semestre\Arquitectura de Computadoras\Practicas\Practica_2\ALU\ALU.ncd
+OUTFILE=G:\9no Semestre\Arquitectura de Computadoras\Practicas\Practica_2\ALU\ALU.bit
+FAMILY=Spartan6
+PART=xc6slx9-2csg225
+WORKINGDIR=G:\9no Semestre\Arquitectura de Computadoras\Practicas\Practica_2\ALU
+LICENSE=WebPack
+USER_INFO=__0_0_0

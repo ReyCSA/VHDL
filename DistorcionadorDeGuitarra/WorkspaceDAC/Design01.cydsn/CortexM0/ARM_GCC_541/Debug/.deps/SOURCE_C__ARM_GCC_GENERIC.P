@@ -1,0 +1,206 @@
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/ADC_SAR_Seq_1.o : E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/ADC_SAR_Seq_1.c E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/ADC_SAR_Seq_1.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyLib.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/ADC_SAR_Seq_1.c : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/ADC_SAR_Seq_1.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyLib.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cytypes.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/ADC_SAR_Seq_1_INT.o : E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/ADC_SAR_Seq_1.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/ADC_SAR_Seq_1_INT.c E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyLib.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cytypes.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/cyapicallbacks.h 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/ADC_SAR_Seq_1_INT.c : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/cyapicallbacks.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/ADC_SAR_Seq_1_IRQ.o : E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/ADC_SAR_Seq_1_IRQ.c E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/ADC_SAR_Seq_1_IRQ.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyLib.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cytypes.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/cyapicallbacks.h 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/ADC_SAR_Seq_1_IRQ.c : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/ADC_SAR_Seq_1_IRQ.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/ADC_SAR_Seq_1_PM.o : E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/ADC_SAR_Seq_1.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/ADC_SAR_Seq_1_PM.c E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyLib.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/ADC_SAR_Seq_1_PM.c : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/ADC_SAR_Seq_1_intClock.o : E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/ADC_SAR_Seq_1_intClock.c E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/ADC_SAR_Seq_1_intClock.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/ADC_SAR_Seq_1_intClock.c : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/ADC_SAR_Seq_1_intClock.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/Bootloadable_1.o : E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Bootloadable_1.c E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Bootloadable_1.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyFlash.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyLib.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Bootloadable_1.c : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Bootloadable_1.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyFlash.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/Cm0Start.o : E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Cm0Start.c E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyLib.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cytypes.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/cyapicallbacks.h 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Cm0Start.c : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/CyFlash.o : E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyFlash.c E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyFlash.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyLib.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyFlash.c : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/CyLFClk.o : E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.c E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyLib.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.c : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/CyLib.o : E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyFlash.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyLib.c E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyLib.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyLib.c : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/DAC.o : E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyLib.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/DAC.c E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/DAC.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/DAC.c : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/DAC.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/DAC_PM.o : E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyLib.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/DAC.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/DAC_PM.c E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/DAC_PM.c : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/Pin_1.o : E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_1.c E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_1.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_1_aliases.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cypins.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_1.c : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_1.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_1_aliases.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cypins.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/Pin_1_PM.o : E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_1.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_1_PM.c E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_1_aliases.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cypins.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_1_PM.c : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/Pin_2.o : E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_2.c E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_2.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_2_aliases.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cypins.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_2.c : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_2.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_2_aliases.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/Pin_2_PM.o : E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_2.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_2_PM.c E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_2_aliases.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cypins.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_2_PM.c : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/Pin_3.o : E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_3.c E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_3.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_3_aliases.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cypins.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_3.c : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_3.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_3_aliases.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/Pin_3_PM.o : E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_3.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_3_PM.c E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_3_aliases.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cypins.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_3_PM.c : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/Pin_4.o : E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_4.c E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_4.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_4_aliases.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cypins.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_4.c : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_4.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_4_aliases.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/Pin_4_PM.o : E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_4.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_4_PM.c E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_4_aliases.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cypins.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_4_PM.c : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/Pin_5.o : E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_5.c E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_5.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_5_aliases.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cypins.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_5.c : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_5.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_5_aliases.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/Pin_5_PM.o : E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_5.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_5_PM.c E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_5_aliases.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cypins.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_5_PM.c : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/Pin_6.o : E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_6.c E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_6.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_6_aliases.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cypins.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_6.c : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_6.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_6_aliases.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/Pin_6_PM.o : E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_6.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_6_PM.c E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_6_aliases.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cypins.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_6_PM.c : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/Pin_7.o : E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_7.c E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_7.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_7_aliases.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cypins.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_7.c : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_7.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_7_aliases.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/Pin_7_PM.o : E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_7.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_7_PM.c E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_7_aliases.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cypins.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_7_PM.c : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/cyPm.o : E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyFlash.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyLib.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyPm.c E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyPm.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cypins.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyPm.c : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyPm.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/cy_em_eeprom.o : E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyFlash.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyLib.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cy_em_eeprom.c E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cy_em_eeprom.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cy_em_eeprom.c : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cy_em_eeprom.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/cybootloader.o : E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cybootloader.c E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cybootloader.c : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/cyfitter_cfg.o : E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyLib.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter_cfg.c E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cytypes.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/cyapicallbacks.h 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter_cfg.c : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/cymetadata.o : E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cymetadata.c 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cymetadata.c : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/cyutils.o : E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cytypes.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyutils.c 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyutils.c : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/main.o : E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cmsis_armcc.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cmsis_compiler.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cmsis_gcc.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/core_cm0.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cydisabledsheets.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/project.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/ADC_SAR_Seq_1.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/ADC_SAR_Seq_1_IRQ.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/ADC_SAR_Seq_1_intClock.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Bootloadable_1.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyFlash.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/CyLib.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/DAC.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_1.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_1_aliases.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_2.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_2_aliases.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_3.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_3_aliases.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_4.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_4_aliases.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_5.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_5_aliases.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_6.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_6_aliases.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_7.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/Pin_7_aliases.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyPm.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cy_em_eeprom.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cypins.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cytypes.h E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/main.c 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cmsis_armcc.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cmsis_compiler.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cmsis_gcc.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/core_cm0.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/cydisabledsheets.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/Generated_Source/PSoC4/project.h : 
+
+E:/Logica\ Secuencial/Exposicion/distorsion/WorkspaceDAC/Design01.cydsn/main.c : 
+

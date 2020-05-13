@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Rey Castro\UAEM Beto\9no Semestre\Arquitectura de Computadoras\Arquitectura PuertoA sale en B\TOP1\TOP.ncd
+OUTFILE=D:\Rey Castro\UAEM Beto\9no Semestre\Arquitectura de Computadoras\Arquitectura PuertoA sale en B\TOP1\TOP.bit
+FAMILY=Spartan6
+PART=xc6slx9-2csg225
+WORKINGDIR=D:\Rey Castro\UAEM Beto\9no Semestre\Arquitectura de Computadoras\Arquitectura PuertoA sale en B\TOP1
+LICENSE=WebPack
+USER_INFO=__0_0_0

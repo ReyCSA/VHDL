@@ -1,0 +1,11 @@
+#ENTRADAS
+net "entrada<2>" loc="M6";
+net "entrada<1>" loc="P4";
+net "entrada<0>" loc="N5";
+
+#SALIDAS
+net "salida<1>" loc="T8";
+net "salida<0>" loc="T9";
+
+#CLOCK
+net "clk" loc="C10";

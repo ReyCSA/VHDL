@@ -1,0 +1,11 @@
+ISim log file
+Running: D:\Rey Castro\UAEM Beto\9no Semestre\Arquitectura de Computadoras\Arquitectura PuertoA sale en B\TOP1\tb_TOP1_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/tb_TOP1_isim_beh.wdb 
+ISim P.58f (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+at 30 ns(1), Instance /tb_top1/uut/Inst_ALU/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).

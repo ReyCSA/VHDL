@@ -1,0 +1,18 @@
+##ENTRADAS
+net "entradaPlaca<0>" loc="B14";
+net "entradaPlaca<1>" loc="C14";
+net "entradaPlaca<2>" loc="D13";
+net "entradaPlaca<3>" loc="E14";
+
+##SALIDAS
+net "salidaPlaca<0>" loc="G15";
+net "salidaPlaca<1>" loc="C15";
+net "salidaPlaca<2>" loc="D15";
+net "salidaPlaca<3>" loc="E15";
+net "banderasPlaca<0>" loc="F15";
+net "banderasPlaca<1>" loc="M15";
+net "banderasPlaca<2>" loc="N15";
+net "banderasPlaca<3>" loc="P15";
+
+##CLOCK
+net "clkPlaca" loc="E7";

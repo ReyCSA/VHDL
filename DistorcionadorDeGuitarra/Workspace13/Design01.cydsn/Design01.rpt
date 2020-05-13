@@ -1,0 +1,13 @@
+Loading plugins phase: Elapsed time ==> 0s.609ms
+<CYPRESSTAG name="CyDsfit arguments...">
+cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p E:\Logica Secuencial\Exposicion\distorsion\Workspace13\Design01.cydsn\Design01.cyprj -d CY8C4245AXI-483 -s E:\Logica Secuencial\Exposicion\distorsion\Workspace13\Design01.cydsn\Generated_Source\PSoC4 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
+</CYPRESSTAG>
+<CYPRESSTAG name="Design elaboration results...">
+ADD: fit.M0006: error: Pin Error: (Illegal entry.).
+ * E:\Logica Secuencial\Exposicion\distorsion\Workspace13\Design01.cydsn\Design01.cydwr (\Pin_2[3:0]\)
+
+ADD: sdb.M0061: information: Info from component: ADC_SAR_Seq_1. The actual sample rate (171428 SPS) differs from the desired sample rate (166666 SPS) due to the clock configuration in the DWR.
+ * E:\Logica Secuencial\Exposicion\distorsion\Workspace13\Design01.cydsn\TopDesign\TopDesign.cysch (Instance:ADC_SAR_Seq_1)
+
+</CYPRESSTAG>
+Elaboration phase: Elapsed time ==> 6s.281ms

@@ -1,0 +1,5 @@
+vhdl work "../../Practica13_ContadorDecimal/jk/jk.vhd"
+vhdl work "../../Practica13_ContadorDecimal/ffjk/ffjk.vhd"
+vhdl work "../../Practica13_ContadorDecimal/ContadorBCD/ContadorBCD.vhd"
+vhdl work "../../Practica14_ContadorDisplay1/BCDDisplay/BCDDisplay.vhd"
+vhdl work "Contador2Dislay.vhd"

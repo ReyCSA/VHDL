@@ -1,0 +1,23 @@
+#Entradas Analogicas PSoC
+net "entra<7>" loc="K15"; 
+net "entra<6>" loc="K13"; 
+net "entra<5>" loc="L15"; 
+net "entra<4>" loc="L14"; 
+net "entra<3>" loc="J11"; 
+net "entra<2>" loc="J13"; 
+net "entra<1>" loc="G14"; 
+net "entra<0>" loc="L12"; 
+#Salidas Digitales PSoC
+NET "sale<7>" loc = "H15";
+NET "sale<6>" loc = "H13";
+NET "sale<5>" loc = "B13";
+NET "sale<4>" loc = "C12";
+NET "sale<3>" loc = "A12";
+NET "sale<2>" loc = "C11";
+NET "sale<1>" loc = "B11";
+NET "sale<0>" loc = "A11";
+#Reloj
+net "clk" loc = "E7";
+#LED
+net "sale2<1>" loc="G15";
+net "sale2<0>" loc="P15";

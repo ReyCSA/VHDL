@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Proyecto ALU/ALU/ALU.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Proyecto ALU/Contador/Contador.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Proyecto ALU/Decodificador A/Decodificador.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Proyecto ALU/Decodificador B/Decodificador.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Proyecto ALU/DecodificadorSAL/DecodificadorSAL.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Proyecto ALU/Puerto A/Puerto.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Proyecto ALU/Puerto B/Puerto.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Proyecto ALU/Ram/Ram.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Proyecto ALU/Rom/Rom.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Proyecto ALU/TOP1/TOP1.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Proyecto ALU/W/W.vhd&quot; into library work</arg>
+</msg>
+
+</messages>
+

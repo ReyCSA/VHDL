@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "H:/Logica Secuencial/2do Parcial/Practica15_2Displays/Contador2Dislay/tb_Contador2Dislay_isim_beh.exe" -prj "H:/Logica Secuencial/2do Parcial/Practica15_2Displays/Contador2Dislay/tb_Contador2Dislay_beh.prj" "work.tb_Contador2Dislay" 

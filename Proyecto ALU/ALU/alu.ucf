@@ -1,0 +1,28 @@
+#ENTRADAS
+net "a(0)" loc="F13";
+net "a(1)" loc="M13";
+net "a(2)" loc="N14";
+net "a(3)" loc="P14";
+
+net "b(0)" loc="B14";
+net "b(1)" loc="C14";
+net "b(2)" loc="D13";
+net "b(3)" loc="E14";
+
+net "seleccion(3)" loc="F1";
+net "seleccion(2)" loc="E1";
+net "seleccion(1)" loc="F3";
+net "seleccion(0)" loc="B3";
+
+
+#SALIDAS
+net "banderas(1)" loc="P15";
+net "banderas(0)" loc="N15";
+
+net "salida(3)" loc="E15";
+net "salida(2)" loc="D15";
+net "salida(1)" loc="C15";
+net "salida(0)" loc="G15";
+
+#CLOCK
+net "clk" loc="E7";

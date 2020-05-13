@@ -1,0 +1,753 @@
+ARM GAS  C:\Users\Castro\AppData\Local\Temp\ccN4iUnZ.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m0
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 0
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"main.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.section	.text.main,"ax",%progbits
+  20              		.align	2
+  21              		.global	main
+  22              		.code	16
+  23              		.thumb_func
+  24              		.type	main, %function
+  25              	main:
+  26              	.LFB32:
+  27              		.file 1 "main.c"
+   1:main.c        **** #include "project.h"
+   2:main.c        **** 
+   3:main.c        **** int8 x, y, z;
+   4:main.c        **** int8 canalADC = 0;
+   5:main.c        **** 
+   6:main.c        **** int main(void)
+   7:main.c        **** {
+  28              		.loc 1 7 0
+  29              		.cfi_startproc
+  30              		@ args = 0, pretend = 0, frame = 0
+  31              		@ frame_needed = 0, uses_anonymous_args = 0
+  32 0000 10B5     		push	{r4, lr}
+  33              		.cfi_def_cfa_offset 8
+  34              		.cfi_offset 4, -8
+  35              		.cfi_offset 14, -4
+   8:main.c        ****    CyGlobalIntEnable; 
+  36              		.loc 1 8 0
+  37              		.syntax divided
+  38              	@ 8 "main.c" 1
+  39 0002 62B6     		CPSIE   i
+  40              	@ 0 "" 2
+   9:main.c        ****     
+  10:main.c        ****    ADC_SAR_Seq_1_Start();
+  41              		.loc 1 10 0
+  42              		.thumb
+  43              		.syntax unified
+  44 0004 FFF7FEFF 		bl	ADC_SAR_Seq_1_Start
+  45              	.LVL0:
+  11:main.c        ****    ADC_SAR_Seq_1_StartConvert();
+  46              		.loc 1 11 0
+ARM GAS  C:\Users\Castro\AppData\Local\Temp\ccN4iUnZ.s 			page 2
+
+
+  47 0008 FFF7FEFF 		bl	ADC_SAR_Seq_1_StartConvert
+  48              	.LVL1:
+  49              	.L2:
+  12:main.c        **** 
+  13:main.c        ****    int8 canalADC = 0;
+  14:main.c        ****    int8 vmax, vmin;
+  15:main.c        ****    //int16 digital;
+  16:main.c        **** 
+  17:main.c        ****     for(;;)
+  18:main.c        ****     {   
+  19:main.c        ****         if(ADC_SAR_Seq_1_IsEndConversion(ADC_SAR_Seq_1_RETURN_STATUS)!= 0)
+  50              		.loc 1 19 0
+  51 000c 0120     		movs	r0, #1
+  52 000e FFF7FEFF 		bl	ADC_SAR_Seq_1_IsEndConversion
+  53              	.LVL2:
+  54 0012 0028     		cmp	r0, #0
+  55 0014 04D0     		beq	.L3
+  20:main.c        ****             x = ADC_SAR_Seq_1_GetResult16(canalADC);
+  56              		.loc 1 20 0
+  57 0016 0020     		movs	r0, #0
+  58 0018 FFF7FEFF 		bl	ADC_SAR_Seq_1_GetResult16
+  59              	.LVL3:
+  60 001c 0C4B     		ldr	r3, .L7
+  61 001e 1870     		strb	r0, [r3]
+  62              	.L3:
+  63              	.LVL4:
+  21:main.c        ****         //Pin_2_Write(x);     
+  22:main.c        ****         
+  23:main.c        ****             
+  24:main.c        ****         //digital = Pin_2_Read() <<2 | Pin_3_Read() <<2 | Pin_4_Read(); 
+  25:main.c        ****         
+  26:main.c        ****         vmax = 10; vmin = 5;
+  27:main.c        ****         
+  28:main.c        ****         if(x > vmax)
+  64              		.loc 1 28 0
+  65 0020 0B4B     		ldr	r3, .L7
+  66 0022 0020     		movs	r0, #0
+  67 0024 1856     		ldrsb	r0, [r3, r0]
+  68 0026 0A28     		cmp	r0, #10
+  69 0028 05DD     		ble	.L4
+  29:main.c        ****         {
+  30:main.c        ****             x = vmax;
+  70              		.loc 1 30 0
+  71 002a 0A22     		movs	r2, #10
+  72 002c 1A70     		strb	r2, [r3]
+  31:main.c        ****             Pin_2_Write(x);
+  73              		.loc 1 31 0
+  74 002e 0A20     		movs	r0, #10
+  75 0030 FFF7FEFF 		bl	Pin_2_Write
+  76              	.LVL5:
+  77 0034 EAE7     		b	.L2
+  78              	.L4:
+  32:main.c        ****         }
+  33:main.c        ****         else if(x < vmin)
+  79              		.loc 1 33 0
+  80 0036 0428     		cmp	r0, #4
+  81 0038 06DC     		bgt	.L6
+ARM GAS  C:\Users\Castro\AppData\Local\Temp\ccN4iUnZ.s 			page 3
+
+
+  34:main.c        ****         {
+  35:main.c        ****             x = vmin;
+  82              		.loc 1 35 0
+  83 003a 0522     		movs	r2, #5
+  84 003c 044B     		ldr	r3, .L7
+  85 003e 1A70     		strb	r2, [r3]
+  36:main.c        ****             Pin_2_Write(x);
+  86              		.loc 1 36 0
+  87 0040 0520     		movs	r0, #5
+  88 0042 FFF7FEFF 		bl	Pin_2_Write
+  89              	.LVL6:
+  90 0046 E1E7     		b	.L2
+  91              	.L6:
+  37:main.c        ****         }
+  38:main.c        ****         else
+  39:main.c        ****             Pin_2_Write(x);
+  92              		.loc 1 39 0
+  93 0048 C0B2     		uxtb	r0, r0
+  94 004a FFF7FEFF 		bl	Pin_2_Write
+  95              	.LVL7:
+  96 004e DDE7     		b	.L2
+  97              	.L8:
+  98              		.align	2
+  99              	.L7:
+ 100 0050 00000000 		.word	x
+ 101              		.cfi_endproc
+ 102              	.LFE32:
+ 103              		.size	main, .-main
+ 104              		.global	canalADC
+ 105              		.comm	z,1,1
+ 106              		.comm	y,1,1
+ 107              		.comm	x,1,1
+ 108              		.bss
+ 109              		.type	canalADC, %object
+ 110              		.size	canalADC, 1
+ 111              	canalADC:
+ 112 0000 00       		.space	1
+ 113              		.text
+ 114              	.Letext0:
+ 115              		.file 2 "Generated_Source\\PSoC4/ADC_SAR_Seq_1.h"
+ 116              		.file 3 "Generated_Source\\PSoC4/Pin_2.h"
+ 117              		.file 4 "Generated_Source\\PSoC4/cytypes.h"
+ 118              		.section	.debug_info,"",%progbits
+ 119              	.Ldebug_info0:
+ 120 0000 B1010000 		.4byte	0x1b1
+ 121 0004 0400     		.2byte	0x4
+ 122 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 123 000a 04       		.byte	0x4
+ 124 000b 01       		.uleb128 0x1
+ 125 000c BC000000 		.4byte	.LASF22
+ 126 0010 0C       		.byte	0xc
+ 127 0011 61010000 		.4byte	.LASF23
+ 128 0015 B6010000 		.4byte	.LASF24
+ 129 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 130 001d 00000000 		.4byte	0
+ 131 0021 00000000 		.4byte	.Ldebug_line0
+ 132 0025 02       		.uleb128 0x2
+ARM GAS  C:\Users\Castro\AppData\Local\Temp\ccN4iUnZ.s 			page 4
+
+
+ 133 0026 01       		.byte	0x1
+ 134 0027 06       		.byte	0x6
+ 135 0028 AA010000 		.4byte	.LASF0
+ 136 002c 02       		.uleb128 0x2
+ 137 002d 01       		.byte	0x1
+ 138 002e 08       		.byte	0x8
+ 139 002f 17000000 		.4byte	.LASF1
+ 140 0033 02       		.uleb128 0x2
+ 141 0034 02       		.byte	0x2
+ 142 0035 05       		.byte	0x5
+ 143 0036 6D010000 		.4byte	.LASF2
+ 144 003a 02       		.uleb128 0x2
+ 145 003b 02       		.byte	0x2
+ 146 003c 07       		.byte	0x7
+ 147 003d 37000000 		.4byte	.LASF3
+ 148 0041 02       		.uleb128 0x2
+ 149 0042 04       		.byte	0x4
+ 150 0043 05       		.byte	0x5
+ 151 0044 77010000 		.4byte	.LASF4
+ 152 0048 02       		.uleb128 0x2
+ 153 0049 04       		.byte	0x4
+ 154 004a 07       		.byte	0x7
+ 155 004b 25000000 		.4byte	.LASF5
+ 156 004f 02       		.uleb128 0x2
+ 157 0050 08       		.byte	0x8
+ 158 0051 05       		.byte	0x5
+ 159 0052 53010000 		.4byte	.LASF6
+ 160 0056 02       		.uleb128 0x2
+ 161 0057 08       		.byte	0x8
+ 162 0058 07       		.byte	0x7
+ 163 0059 9C000000 		.4byte	.LASF7
+ 164 005d 03       		.uleb128 0x3
+ 165 005e 04       		.byte	0x4
+ 166 005f 05       		.byte	0x5
+ 167 0060 696E7400 		.ascii	"int\000"
+ 168 0064 02       		.uleb128 0x2
+ 169 0065 04       		.byte	0x4
+ 170 0066 07       		.byte	0x7
+ 171 0067 74000000 		.4byte	.LASF8
+ 172 006b 04       		.uleb128 0x4
+ 173 006c 6F000000 		.4byte	.LASF25
+ 174 0070 04       		.byte	0x4
+ 175 0071 E701     		.2byte	0x1e7
+ 176 0073 25000000 		.4byte	0x25
+ 177 0077 02       		.uleb128 0x2
+ 178 0078 04       		.byte	0x4
+ 179 0079 04       		.byte	0x4
+ 180 007a 0C000000 		.4byte	.LASF9
+ 181 007e 02       		.uleb128 0x2
+ 182 007f 08       		.byte	0x8
+ 183 0080 04       		.byte	0x4
+ 184 0081 63000000 		.4byte	.LASF10
+ 185 0085 02       		.uleb128 0x2
+ 186 0086 01       		.byte	0x1
+ 187 0087 08       		.byte	0x8
+ 188 0088 68010000 		.4byte	.LASF11
+ 189 008c 02       		.uleb128 0x2
+ARM GAS  C:\Users\Castro\AppData\Local\Temp\ccN4iUnZ.s 			page 5
+
+
+ 190 008d 08       		.byte	0x8
+ 191 008e 04       		.byte	0x4
+ 192 008f 9E010000 		.4byte	.LASF12
+ 193 0093 02       		.uleb128 0x2
+ 194 0094 04       		.byte	0x4
+ 195 0095 07       		.byte	0x7
+ 196 0096 4A010000 		.4byte	.LASF13
+ 197 009a 05       		.uleb128 0x5
+ 198 009b 6A000000 		.4byte	.LASF26
+ 199 009f 01       		.byte	0x1
+ 200 00a0 06       		.byte	0x6
+ 201 00a1 5D000000 		.4byte	0x5d
+ 202 00a5 00000000 		.4byte	.LFB32
+ 203 00a9 54000000 		.4byte	.LFE32-.LFB32
+ 204 00ad 01       		.uleb128 0x1
+ 205 00ae 9C       		.byte	0x9c
+ 206 00af 3F010000 		.4byte	0x13f
+ 207 00b3 06       		.uleb128 0x6
+ 208 00b4 B3000000 		.4byte	.LASF14
+ 209 00b8 01       		.byte	0x1
+ 210 00b9 0D       		.byte	0xd
+ 211 00ba 6B000000 		.4byte	0x6b
+ 212 00be 00       		.byte	0
+ 213 00bf 06       		.uleb128 0x6
+ 214 00c0 12000000 		.4byte	.LASF15
+ 215 00c4 01       		.byte	0x1
+ 216 00c5 0E       		.byte	0xe
+ 217 00c6 6B000000 		.4byte	0x6b
+ 218 00ca 0A       		.byte	0xa
+ 219 00cb 06       		.uleb128 0x6
+ 220 00cc 5E000000 		.4byte	.LASF16
+ 221 00d0 01       		.byte	0x1
+ 222 00d1 0E       		.byte	0xe
+ 223 00d2 6B000000 		.4byte	0x6b
+ 224 00d6 05       		.byte	0x5
+ 225 00d7 07       		.uleb128 0x7
+ 226 00d8 08000000 		.4byte	.LVL0
+ 227 00dc 7D010000 		.4byte	0x17d
+ 228 00e0 07       		.uleb128 0x7
+ 229 00e1 0C000000 		.4byte	.LVL1
+ 230 00e5 88010000 		.4byte	0x188
+ 231 00e9 08       		.uleb128 0x8
+ 232 00ea 12000000 		.4byte	.LVL2
+ 233 00ee 93010000 		.4byte	0x193
+ 234 00f2 FC000000 		.4byte	0xfc
+ 235 00f6 09       		.uleb128 0x9
+ 236 00f7 01       		.uleb128 0x1
+ 237 00f8 50       		.byte	0x50
+ 238 00f9 01       		.uleb128 0x1
+ 239 00fa 31       		.byte	0x31
+ 240 00fb 00       		.byte	0
+ 241 00fc 08       		.uleb128 0x8
+ 242 00fd 1C000000 		.4byte	.LVL3
+ 243 0101 9E010000 		.4byte	0x19e
+ 244 0105 0F010000 		.4byte	0x10f
+ 245 0109 09       		.uleb128 0x9
+ 246 010a 01       		.uleb128 0x1
+ARM GAS  C:\Users\Castro\AppData\Local\Temp\ccN4iUnZ.s 			page 6
+
+
+ 247 010b 50       		.byte	0x50
+ 248 010c 01       		.uleb128 0x1
+ 249 010d 30       		.byte	0x30
+ 250 010e 00       		.byte	0
+ 251 010f 08       		.uleb128 0x8
+ 252 0110 34000000 		.4byte	.LVL5
+ 253 0114 A9010000 		.4byte	0x1a9
+ 254 0118 22010000 		.4byte	0x122
+ 255 011c 09       		.uleb128 0x9
+ 256 011d 01       		.uleb128 0x1
+ 257 011e 50       		.byte	0x50
+ 258 011f 01       		.uleb128 0x1
+ 259 0120 3A       		.byte	0x3a
+ 260 0121 00       		.byte	0
+ 261 0122 08       		.uleb128 0x8
+ 262 0123 46000000 		.4byte	.LVL6
+ 263 0127 A9010000 		.4byte	0x1a9
+ 264 012b 35010000 		.4byte	0x135
+ 265 012f 09       		.uleb128 0x9
+ 266 0130 01       		.uleb128 0x1
+ 267 0131 50       		.byte	0x50
+ 268 0132 01       		.uleb128 0x1
+ 269 0133 35       		.byte	0x35
+ 270 0134 00       		.byte	0
+ 271 0135 07       		.uleb128 0x7
+ 272 0136 4E000000 		.4byte	.LVL7
+ 273 013a A9010000 		.4byte	0x1a9
+ 274 013e 00       		.byte	0
+ 275 013f 0A       		.uleb128 0xa
+ 276 0140 7800     		.ascii	"x\000"
+ 277 0142 01       		.byte	0x1
+ 278 0143 03       		.byte	0x3
+ 279 0144 6B000000 		.4byte	0x6b
+ 280 0148 05       		.uleb128 0x5
+ 281 0149 03       		.byte	0x3
+ 282 014a 00000000 		.4byte	x
+ 283 014e 0A       		.uleb128 0xa
+ 284 014f 7900     		.ascii	"y\000"
+ 285 0151 01       		.byte	0x1
+ 286 0152 03       		.byte	0x3
+ 287 0153 6B000000 		.4byte	0x6b
+ 288 0157 05       		.uleb128 0x5
+ 289 0158 03       		.byte	0x3
+ 290 0159 00000000 		.4byte	y
+ 291 015d 0A       		.uleb128 0xa
+ 292 015e 7A00     		.ascii	"z\000"
+ 293 0160 01       		.byte	0x1
+ 294 0161 03       		.byte	0x3
+ 295 0162 6B000000 		.4byte	0x6b
+ 296 0166 05       		.uleb128 0x5
+ 297 0167 03       		.byte	0x3
+ 298 0168 00000000 		.4byte	z
+ 299 016c 0B       		.uleb128 0xb
+ 300 016d B3000000 		.4byte	.LASF14
+ 301 0171 01       		.byte	0x1
+ 302 0172 04       		.byte	0x4
+ 303 0173 6B000000 		.4byte	0x6b
+ARM GAS  C:\Users\Castro\AppData\Local\Temp\ccN4iUnZ.s 			page 7
+
+
+ 304 0177 05       		.uleb128 0x5
+ 305 0178 03       		.byte	0x3
+ 306 0179 00000000 		.4byte	canalADC
+ 307 017d 0C       		.uleb128 0xc
+ 308 017e 4A000000 		.4byte	.LASF17
+ 309 0182 4A000000 		.4byte	.LASF17
+ 310 0186 02       		.byte	0x2
+ 311 0187 99       		.byte	0x99
+ 312 0188 0C       		.uleb128 0xc
+ 313 0189 81000000 		.4byte	.LASF18
+ 314 018d 81000000 		.4byte	.LASF18
+ 315 0191 02       		.byte	0x2
+ 316 0192 9D       		.byte	0x9d
+ 317 0193 0C       		.uleb128 0xc
+ 318 0194 80010000 		.4byte	.LASF19
+ 319 0198 80010000 		.4byte	.LASF19
+ 320 019c 02       		.byte	0x2
+ 321 019d 9F       		.byte	0x9f
+ 322 019e 0C       		.uleb128 0xc
+ 323 019f FC010000 		.4byte	.LASF20
+ 324 01a3 FC010000 		.4byte	.LASF20
+ 325 01a7 02       		.byte	0x2
+ 326 01a8 A0       		.byte	0xa0
+ 327 01a9 0C       		.uleb128 0xc
+ 328 01aa 00000000 		.4byte	.LASF21
+ 329 01ae 00000000 		.4byte	.LASF21
+ 330 01b2 03       		.byte	0x3
+ 331 01b3 33       		.byte	0x33
+ 332 01b4 00       		.byte	0
+ 333              		.section	.debug_abbrev,"",%progbits
+ 334              	.Ldebug_abbrev0:
+ 335 0000 01       		.uleb128 0x1
+ 336 0001 11       		.uleb128 0x11
+ 337 0002 01       		.byte	0x1
+ 338 0003 25       		.uleb128 0x25
+ 339 0004 0E       		.uleb128 0xe
+ 340 0005 13       		.uleb128 0x13
+ 341 0006 0B       		.uleb128 0xb
+ 342 0007 03       		.uleb128 0x3
+ 343 0008 0E       		.uleb128 0xe
+ 344 0009 1B       		.uleb128 0x1b
+ 345 000a 0E       		.uleb128 0xe
+ 346 000b 55       		.uleb128 0x55
+ 347 000c 17       		.uleb128 0x17
+ 348 000d 11       		.uleb128 0x11
+ 349 000e 01       		.uleb128 0x1
+ 350 000f 10       		.uleb128 0x10
+ 351 0010 17       		.uleb128 0x17
+ 352 0011 00       		.byte	0
+ 353 0012 00       		.byte	0
+ 354 0013 02       		.uleb128 0x2
+ 355 0014 24       		.uleb128 0x24
+ 356 0015 00       		.byte	0
+ 357 0016 0B       		.uleb128 0xb
+ 358 0017 0B       		.uleb128 0xb
+ 359 0018 3E       		.uleb128 0x3e
+ 360 0019 0B       		.uleb128 0xb
+ARM GAS  C:\Users\Castro\AppData\Local\Temp\ccN4iUnZ.s 			page 8
+
+
+ 361 001a 03       		.uleb128 0x3
+ 362 001b 0E       		.uleb128 0xe
+ 363 001c 00       		.byte	0
+ 364 001d 00       		.byte	0
+ 365 001e 03       		.uleb128 0x3
+ 366 001f 24       		.uleb128 0x24
+ 367 0020 00       		.byte	0
+ 368 0021 0B       		.uleb128 0xb
+ 369 0022 0B       		.uleb128 0xb
+ 370 0023 3E       		.uleb128 0x3e
+ 371 0024 0B       		.uleb128 0xb
+ 372 0025 03       		.uleb128 0x3
+ 373 0026 08       		.uleb128 0x8
+ 374 0027 00       		.byte	0
+ 375 0028 00       		.byte	0
+ 376 0029 04       		.uleb128 0x4
+ 377 002a 16       		.uleb128 0x16
+ 378 002b 00       		.byte	0
+ 379 002c 03       		.uleb128 0x3
+ 380 002d 0E       		.uleb128 0xe
+ 381 002e 3A       		.uleb128 0x3a
+ 382 002f 0B       		.uleb128 0xb
+ 383 0030 3B       		.uleb128 0x3b
+ 384 0031 05       		.uleb128 0x5
+ 385 0032 49       		.uleb128 0x49
+ 386 0033 13       		.uleb128 0x13
+ 387 0034 00       		.byte	0
+ 388 0035 00       		.byte	0
+ 389 0036 05       		.uleb128 0x5
+ 390 0037 2E       		.uleb128 0x2e
+ 391 0038 01       		.byte	0x1
+ 392 0039 3F       		.uleb128 0x3f
+ 393 003a 19       		.uleb128 0x19
+ 394 003b 03       		.uleb128 0x3
+ 395 003c 0E       		.uleb128 0xe
+ 396 003d 3A       		.uleb128 0x3a
+ 397 003e 0B       		.uleb128 0xb
+ 398 003f 3B       		.uleb128 0x3b
+ 399 0040 0B       		.uleb128 0xb
+ 400 0041 27       		.uleb128 0x27
+ 401 0042 19       		.uleb128 0x19
+ 402 0043 49       		.uleb128 0x49
+ 403 0044 13       		.uleb128 0x13
+ 404 0045 8701     		.uleb128 0x87
+ 405 0047 19       		.uleb128 0x19
+ 406 0048 11       		.uleb128 0x11
+ 407 0049 01       		.uleb128 0x1
+ 408 004a 12       		.uleb128 0x12
+ 409 004b 06       		.uleb128 0x6
+ 410 004c 40       		.uleb128 0x40
+ 411 004d 18       		.uleb128 0x18
+ 412 004e 9742     		.uleb128 0x2117
+ 413 0050 19       		.uleb128 0x19
+ 414 0051 01       		.uleb128 0x1
+ 415 0052 13       		.uleb128 0x13
+ 416 0053 00       		.byte	0
+ 417 0054 00       		.byte	0
+ARM GAS  C:\Users\Castro\AppData\Local\Temp\ccN4iUnZ.s 			page 9
+
+
+ 418 0055 06       		.uleb128 0x6
+ 419 0056 34       		.uleb128 0x34
+ 420 0057 00       		.byte	0
+ 421 0058 03       		.uleb128 0x3
+ 422 0059 0E       		.uleb128 0xe
+ 423 005a 3A       		.uleb128 0x3a
+ 424 005b 0B       		.uleb128 0xb
+ 425 005c 3B       		.uleb128 0x3b
+ 426 005d 0B       		.uleb128 0xb
+ 427 005e 49       		.uleb128 0x49
+ 428 005f 13       		.uleb128 0x13
+ 429 0060 1C       		.uleb128 0x1c
+ 430 0061 0B       		.uleb128 0xb
+ 431 0062 00       		.byte	0
+ 432 0063 00       		.byte	0
+ 433 0064 07       		.uleb128 0x7
+ 434 0065 898201   		.uleb128 0x4109
+ 435 0068 00       		.byte	0
+ 436 0069 11       		.uleb128 0x11
+ 437 006a 01       		.uleb128 0x1
+ 438 006b 31       		.uleb128 0x31
+ 439 006c 13       		.uleb128 0x13
+ 440 006d 00       		.byte	0
+ 441 006e 00       		.byte	0
+ 442 006f 08       		.uleb128 0x8
+ 443 0070 898201   		.uleb128 0x4109
+ 444 0073 01       		.byte	0x1
+ 445 0074 11       		.uleb128 0x11
+ 446 0075 01       		.uleb128 0x1
+ 447 0076 31       		.uleb128 0x31
+ 448 0077 13       		.uleb128 0x13
+ 449 0078 01       		.uleb128 0x1
+ 450 0079 13       		.uleb128 0x13
+ 451 007a 00       		.byte	0
+ 452 007b 00       		.byte	0
+ 453 007c 09       		.uleb128 0x9
+ 454 007d 8A8201   		.uleb128 0x410a
+ 455 0080 00       		.byte	0
+ 456 0081 02       		.uleb128 0x2
+ 457 0082 18       		.uleb128 0x18
+ 458 0083 9142     		.uleb128 0x2111
+ 459 0085 18       		.uleb128 0x18
+ 460 0086 00       		.byte	0
+ 461 0087 00       		.byte	0
+ 462 0088 0A       		.uleb128 0xa
+ 463 0089 34       		.uleb128 0x34
+ 464 008a 00       		.byte	0
+ 465 008b 03       		.uleb128 0x3
+ 466 008c 08       		.uleb128 0x8
+ 467 008d 3A       		.uleb128 0x3a
+ 468 008e 0B       		.uleb128 0xb
+ 469 008f 3B       		.uleb128 0x3b
+ 470 0090 0B       		.uleb128 0xb
+ 471 0091 49       		.uleb128 0x49
+ 472 0092 13       		.uleb128 0x13
+ 473 0093 3F       		.uleb128 0x3f
+ 474 0094 19       		.uleb128 0x19
+ARM GAS  C:\Users\Castro\AppData\Local\Temp\ccN4iUnZ.s 			page 10
+
+
+ 475 0095 02       		.uleb128 0x2
+ 476 0096 18       		.uleb128 0x18
+ 477 0097 00       		.byte	0
+ 478 0098 00       		.byte	0
+ 479 0099 0B       		.uleb128 0xb
+ 480 009a 34       		.uleb128 0x34
+ 481 009b 00       		.byte	0
+ 482 009c 03       		.uleb128 0x3
+ 483 009d 0E       		.uleb128 0xe
+ 484 009e 3A       		.uleb128 0x3a
+ 485 009f 0B       		.uleb128 0xb
+ 486 00a0 3B       		.uleb128 0x3b
+ 487 00a1 0B       		.uleb128 0xb
+ 488 00a2 49       		.uleb128 0x49
+ 489 00a3 13       		.uleb128 0x13
+ 490 00a4 3F       		.uleb128 0x3f
+ 491 00a5 19       		.uleb128 0x19
+ 492 00a6 02       		.uleb128 0x2
+ 493 00a7 18       		.uleb128 0x18
+ 494 00a8 00       		.byte	0
+ 495 00a9 00       		.byte	0
+ 496 00aa 0C       		.uleb128 0xc
+ 497 00ab 2E       		.uleb128 0x2e
+ 498 00ac 00       		.byte	0
+ 499 00ad 3F       		.uleb128 0x3f
+ 500 00ae 19       		.uleb128 0x19
+ 501 00af 3C       		.uleb128 0x3c
+ 502 00b0 19       		.uleb128 0x19
+ 503 00b1 6E       		.uleb128 0x6e
+ 504 00b2 0E       		.uleb128 0xe
+ 505 00b3 03       		.uleb128 0x3
+ 506 00b4 0E       		.uleb128 0xe
+ 507 00b5 3A       		.uleb128 0x3a
+ 508 00b6 0B       		.uleb128 0xb
+ 509 00b7 3B       		.uleb128 0x3b
+ 510 00b8 0B       		.uleb128 0xb
+ 511 00b9 00       		.byte	0
+ 512 00ba 00       		.byte	0
+ 513 00bb 00       		.byte	0
+ 514              		.section	.debug_aranges,"",%progbits
+ 515 0000 1C000000 		.4byte	0x1c
+ 516 0004 0200     		.2byte	0x2
+ 517 0006 00000000 		.4byte	.Ldebug_info0
+ 518 000a 04       		.byte	0x4
+ 519 000b 00       		.byte	0
+ 520 000c 0000     		.2byte	0
+ 521 000e 0000     		.2byte	0
+ 522 0010 00000000 		.4byte	.LFB32
+ 523 0014 54000000 		.4byte	.LFE32-.LFB32
+ 524 0018 00000000 		.4byte	0
+ 525 001c 00000000 		.4byte	0
+ 526              		.section	.debug_ranges,"",%progbits
+ 527              	.Ldebug_ranges0:
+ 528 0000 00000000 		.4byte	.LFB32
+ 529 0004 54000000 		.4byte	.LFE32
+ 530 0008 00000000 		.4byte	0
+ 531 000c 00000000 		.4byte	0
+ARM GAS  C:\Users\Castro\AppData\Local\Temp\ccN4iUnZ.s 			page 11
+
+
+ 532              		.section	.debug_line,"",%progbits
+ 533              	.Ldebug_line0:
+ 534 0000 7E000000 		.section	.debug_str,"MS",%progbits,1
+ 534      02005F00 
+ 534      00000201 
+ 534      FB0E0D00 
+ 534      01010101 
+ 535              	.LASF21:
+ 536 0000 50696E5F 		.ascii	"Pin_2_Write\000"
+ 536      325F5772 
+ 536      69746500 
+ 537              	.LASF9:
+ 538 000c 666C6F61 		.ascii	"float\000"
+ 538      7400
+ 539              	.LASF15:
+ 540 0012 766D6178 		.ascii	"vmax\000"
+ 540      00
+ 541              	.LASF1:
+ 542 0017 756E7369 		.ascii	"unsigned char\000"
+ 542      676E6564 
+ 542      20636861 
+ 542      7200
+ 543              	.LASF5:
+ 544 0025 6C6F6E67 		.ascii	"long unsigned int\000"
+ 544      20756E73 
+ 544      69676E65 
+ 544      6420696E 
+ 544      7400
+ 545              	.LASF3:
+ 546 0037 73686F72 		.ascii	"short unsigned int\000"
+ 546      7420756E 
+ 546      7369676E 
+ 546      65642069 
+ 546      6E7400
+ 547              	.LASF17:
+ 548 004a 4144435F 		.ascii	"ADC_SAR_Seq_1_Start\000"
+ 548      5341525F 
+ 548      5365715F 
+ 548      315F5374 
+ 548      61727400 
+ 549              	.LASF16:
+ 550 005e 766D696E 		.ascii	"vmin\000"
+ 550      00
+ 551              	.LASF10:
+ 552 0063 646F7562 		.ascii	"double\000"
+ 552      6C6500
+ 553              	.LASF26:
+ 554 006a 6D61696E 		.ascii	"main\000"
+ 554      00
+ 555              	.LASF25:
+ 556 006f 696E7438 		.ascii	"int8\000"
+ 556      00
+ 557              	.LASF8:
+ 558 0074 756E7369 		.ascii	"unsigned int\000"
+ 558      676E6564 
+ 558      20696E74 
+ 558      00
+ARM GAS  C:\Users\Castro\AppData\Local\Temp\ccN4iUnZ.s 			page 12
+
+
+ 559              	.LASF18:
+ 560 0081 4144435F 		.ascii	"ADC_SAR_Seq_1_StartConvert\000"
+ 560      5341525F 
+ 560      5365715F 
+ 560      315F5374 
+ 560      61727443 
+ 561              	.LASF7:
+ 562 009c 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 562      206C6F6E 
+ 562      6720756E 
+ 562      7369676E 
+ 562      65642069 
+ 563              	.LASF14:
+ 564 00b3 63616E61 		.ascii	"canalADC\000"
+ 564      6C414443 
+ 564      00
+ 565              	.LASF22:
+ 566 00bc 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 566      43313120 
+ 566      352E342E 
+ 566      31203230 
+ 566      31363036 
+ 567 00ef 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
+ 567      20726576 
+ 567      6973696F 
+ 567      6E203233 
+ 567      37373135 
+ 568 0122 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 568      66756E63 
+ 568      74696F6E 
+ 568      2D736563 
+ 568      74696F6E 
+ 569              	.LASF13:
+ 570 014a 73697A65 		.ascii	"sizetype\000"
+ 570      74797065 
+ 570      00
+ 571              	.LASF6:
+ 572 0153 6C6F6E67 		.ascii	"long long int\000"
+ 572      206C6F6E 
+ 572      6720696E 
+ 572      7400
+ 573              	.LASF23:
+ 574 0161 6D61696E 		.ascii	"main.c\000"
+ 574      2E6300
+ 575              	.LASF11:
+ 576 0168 63686172 		.ascii	"char\000"
+ 576      00
+ 577              	.LASF2:
+ 578 016d 73686F72 		.ascii	"short int\000"
+ 578      7420696E 
+ 578      7400
+ 579              	.LASF4:
+ 580 0177 6C6F6E67 		.ascii	"long int\000"
+ 580      20696E74 
+ 580      00
+ 581              	.LASF19:
+ 582 0180 4144435F 		.ascii	"ADC_SAR_Seq_1_IsEndConversion\000"
+ARM GAS  C:\Users\Castro\AppData\Local\Temp\ccN4iUnZ.s 			page 13
+
+
+ 582      5341525F 
+ 582      5365715F 
+ 582      315F4973 
+ 582      456E6443 
+ 583              	.LASF12:
+ 584 019e 6C6F6E67 		.ascii	"long double\000"
+ 584      20646F75 
+ 584      626C6500 
+ 585              	.LASF0:
+ 586 01aa 7369676E 		.ascii	"signed char\000"
+ 586      65642063 
+ 586      68617200 
+ 587              	.LASF24:
+ 588 01b6 453A5C4C 		.ascii	"E:\\Logica Secuencial\\Exposicion\\distorsion\\Work"
+ 588      6F676963 
+ 588      61205365 
+ 588      6375656E 
+ 588      6369616C 
+ 589 01e5 73706163 		.ascii	"space13\\Design01.cydsn\000"
+ 589      6531335C 
+ 589      44657369 
+ 589      676E3031 
+ 589      2E637964 
+ 590              	.LASF20:
+ 591 01fc 4144435F 		.ascii	"ADC_SAR_Seq_1_GetResult16\000"
+ 591      5341525F 
+ 591      5365715F 
+ 591      315F4765 
+ 591      74526573 
+ 592              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

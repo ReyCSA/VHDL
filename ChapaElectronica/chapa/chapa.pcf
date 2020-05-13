@@ -1,0 +1,13 @@
+//! **************************************************************************
+// Written by: Map P.58f on Wed May 09 17:05:58 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "C10" LEVEL 1;
+COMP "entrada<0>" LOCATE = SITE "N5" LEVEL 1;
+COMP "entrada<1>" LOCATE = SITE "P4" LEVEL 1;
+COMP "entrada<2>" LOCATE = SITE "M6" LEVEL 1;
+COMP "salida<0>" LOCATE = SITE "T9" LEVEL 1;
+COMP "salida<1>" LOCATE = SITE "T8" LEVEL 1;
+SCHEMATIC END;
+

@@ -1,0 +1,4 @@
+work	"../../Practica13_ContadorDecimal/ContadorBCD/ContadorBCD.vhd"
+work	"../../Practica13_ContadorDecimal/ffjk/ffjk.vhd"
+work	"../../Practica13_ContadorDecimal/jk/jk.vhd"
+work	"../../Practica14_ContadorDisplay1/BCDDisplay/BCDDisplay.vhd"

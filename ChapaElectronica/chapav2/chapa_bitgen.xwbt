@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=H:\Logica Secuencial\2do Parcial\Practica17_Chapa\chapav2\chapa.ncd
+OUTFILE=H:\Logica Secuencial\2do Parcial\Practica17_Chapa\chapav2\chapa.bit
+FAMILY=Spartan6
+PART=xc6slx16-2ftg256
+WORKINGDIR=H:\Logica Secuencial\2do Parcial\Practica17_Chapa\chapav2
+LICENSE=WebPack
+USER_INFO=__0_0_0

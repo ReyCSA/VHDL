@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/MiPC/Desktop/chapa/chapa/tb_chapa_isim_beh.exe" -prj "C:/Users/MiPC/Desktop/chapa/chapa/tb_chapa_beh.prj" "work.tb_chapa" 

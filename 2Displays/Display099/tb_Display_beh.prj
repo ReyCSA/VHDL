@@ -1,0 +1,2 @@
+vhdl work "Display.vhd"
+vhdl work "tb_Display.vhd"

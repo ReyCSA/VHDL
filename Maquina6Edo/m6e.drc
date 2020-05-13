@@ -1,0 +1,8 @@
+Release 14.5 Drc P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Wed May 02 16:41:14 2018
+
+drc -z m6e.ncd m6e.pcf
+
+DRC detected 0 errors and 0 warnings.

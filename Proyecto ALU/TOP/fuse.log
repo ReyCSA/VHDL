@@ -1,0 +1,42 @@
+Running: C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/tb_TOP1_isim_beh.exe -prj D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/tb_TOP1_beh.prj work.tb_TOP1 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/../W/W.vhd" into library work
+Parsing VHDL file "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/../Rom/Rom.vhd" into library work
+Parsing VHDL file "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/../Ram/Ram.vhd" into library work
+Parsing VHDL file "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/../Puerto B/Puerto.vhd" into library work
+Parsing VHDL file "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/../Puerto A/Puerto.vhd" into library work
+Parsing VHDL file "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/../DecodificadorSAL/DecodificadorSAL.vhd" into library work
+Parsing VHDL file "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/../Decodificador B/Decodificador.vhd" into library work
+Parsing VHDL file "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/../Decodificador A/Decodificador.vhd" into library work
+Parsing VHDL file "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/../Contador/Contador.vhd" into library work
+Parsing VHDL file "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/../ALU/ALU.vhd" into library work
+Parsing VHDL file "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/TOP1.vhd" into library work
+Parsing VHDL file "D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/tb_TOP1.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity Contador [contador_default]
+Compiling architecture behavioral of entity Rom [rom_default]
+Compiling architecture behavioral of entity Ram [ram_default]
+Compiling architecture behavioral of entity PuertoA [puertoa_default]
+Compiling architecture behavioral of entity DecodificadorA [decodificadora_default]
+Compiling architecture behavioral of entity DecodificadorB [decodificadorb_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity DecodificadorSAL [decodificadorsal_default]
+Compiling architecture behavioral of entity W [w_default]
+Compiling architecture behavioral of entity PuertoB [puertob_default]
+Compiling architecture behavioral of entity TOP [top_default]
+Compiling architecture behavior of entity tb_top1
+Time Resolution for simulation is 1ps.
+Waiting for 8 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: El sistema no puede encontrar la ruta especificada, "isim\tb_TOP1_isim_beh.exe.sim\libPortability.dll".
+Compiled 27 VHDL Units
+Built simulation executable D:/Rey Castro/UAEM Beto/9no Semestre/Arquitectura de Computadoras/Arquitectura PuertoA sale en B/TOP1/tb_TOP1_isim_beh.exe
+Fuse Memory Usage: 34016 KB
+Fuse CPU Usage: 437 ms

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "G:/Logica Secuencial/2do Parcial/MESema/tb_MESema_isim_beh.exe" -prj "G:/Logica Secuencial/2do Parcial/MESema/tb_MESema_beh.prj" "work.tb_MESema" 
